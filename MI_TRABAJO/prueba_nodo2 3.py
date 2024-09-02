@@ -1,0 +1,10 @@
+from clase import *
+lista_02 = Lista()
+print("Lista:",lista_02)
+lista_02.adicionarInicio(1)
+lista_02.adicionarInicio(5.8)
+lista_02.adicionarInicio("Hola")
+lista_02.adicionarInicio([1,2,3])
+print("Lista",lista_02)
+print(lista_02.eliminarInicio())
+print("Lista: ",lista_02)
